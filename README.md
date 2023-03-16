@@ -18,6 +18,6 @@
     |    
     ├── services                              #  contains modules for the different services 
     │   ├── app                             
-    │   │   ├── main.tf                       # contains the terraform configuration for main ASG
+    │   │   ├── main.tf                       # contains the terraform configuration for app service
     │   │   ├── outputs.tf                    # contains outputs from the terraform configuration
     │   │   ├── variables.tf                  # contains the variables used in writing this configuration
