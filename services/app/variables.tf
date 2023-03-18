@@ -5,14 +5,14 @@
 
 variable "server_text" {
   description = "The text the web server should return"
-  default     = "Hello, World!"
+  default     = "This is a staging deployment!"
   type        = string
 }
 
 variable "environment" {
   description = "The name of the environment we're deploying to"
   type        = string
-  default     = "prod"
+  default     = "stage"
 }
 
 variable "ami" {
